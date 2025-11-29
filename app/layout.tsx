@@ -1,10 +1,11 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Playfair_Display, Lato } from "next/font/google"
+import { Libre_Baskerville, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const playfair = Playfair_Display({ 
+const baskerville = Libre_Baskerville({ 
+  weight: ['400', '700'],
   subsets: ["latin"],
   variable: '--font-serif',
   display: 'swap',
@@ -41,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.variable} ${playfair.variable} font-sans antialiased`}>
+      <body className={`${lato.variable} ${baskerville.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
