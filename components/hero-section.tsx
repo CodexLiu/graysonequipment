@@ -3,17 +3,17 @@ import { Button } from "@/components/ui/button"
 export function HeroSection() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      <div className="absolute inset-0 bg-background/60 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/50 to-background/70 z-10" />
 
       <div className="absolute inset-0">
         <img
           src="/sonoma-county-crush-pad-golden-hour-harvest.jpg"
           alt="Sonoma County crush pad during harvest"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover animate-ken-burns"
         />
       </div>
 
-      <div className="absolute top-8 right-8 z-30 backdrop-blur-md bg-card/80 border border-border rounded-lg px-4 py-3 flex items-center gap-3">
+      <div className="absolute top-24 right-8 z-30 backdrop-blur-md bg-card/80 border border-border rounded-lg px-4 py-3 flex items-center gap-3">
         <svg className="w-6 h-6 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M12 2L3 7v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5z" />
           <path d="M12 8v8M8 12h8" />
