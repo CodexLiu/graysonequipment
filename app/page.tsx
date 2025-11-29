@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
-import { TechnicalBreakdown } from "@/components/technical-breakdown"
+import { WelcomeSection } from "@/components/welcome-section"
 import { ProductCategoriesSection } from "@/components/product-categories-section"
 import { HarvestEssentials } from "@/components/harvest-essentials"
 import { CustomFabrication } from "@/components/custom-fabrication"
@@ -13,7 +13,7 @@ export default function Home() {
       <Navigation />
       <main className="min-h-screen bg-background">
         <HeroSection />
-        <TechnicalBreakdown />
+        <WelcomeSection />
         <ProductCategoriesSection />
         <HarvestEssentials />
         <CustomFabrication />

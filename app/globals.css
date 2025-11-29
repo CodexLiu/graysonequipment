@@ -4,78 +4,102 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.15 0.01 240);
-  --foreground: oklch(0.92 0.01 60);
-  --card: oklch(0.18 0.01 240);
-  --card-foreground: oklch(0.92 0.01 60);
-  --popover: oklch(0.18 0.01 240);
-  --popover-foreground: oklch(0.92 0.01 60);
-  --primary: oklch(0.55 0.15 40);
-  --primary-foreground: oklch(0.98 0.01 40);
-  --secondary: oklch(0.22 0.01 240);
-  --secondary-foreground: oklch(0.92 0.01 60);
-  --muted: oklch(0.25 0.01 240);
-  --muted-foreground: oklch(0.6 0.01 60);
-  --accent: oklch(0.45 0.02 60);
-  --accent-foreground: oklch(0.98 0.01 60);
+  /* Jordan Winery Inspired Palette - Light/Cream Base */
+  --background: oklch(0.99 0.002 85); /* Soft White/Cream */
+  --foreground: oklch(0.25 0.01 280); /* Dark Charcoal */
+  
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.25 0.01 280);
+  
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.25 0.01 280);
+  
+  --primary: oklch(0.2 0.01 280); /* Almost Black for main actions */
+  --primary-foreground: oklch(0.98 0 0);
+  
+  --secondary: oklch(0.96 0.005 85); /* Light Stone for sections */
+  --secondary-foreground: oklch(0.25 0.01 280);
+  
+  --muted: oklch(0.92 0.005 85);
+  --muted-foreground: oklch(0.5 0.01 280);
+  
+  --accent: oklch(0.72 0.11 75); /* Muted Gold/Bronze #C5A059 approx */
+  --accent-foreground: oklch(0.98 0 0);
+  
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0.01 60);
-  --border: oklch(0.3 0.01 240);
-  --input: oklch(0.25 0.01 240);
-  --ring: oklch(0.55 0.15 40);
-  --chart-1: oklch(0.55 0.15 40);
-  --chart-2: oklch(0.45 0.02 60);
-  --chart-3: oklch(0.6 0.01 60);
-  --chart-4: oklch(0.7 0.08 80);
-  --chart-5: oklch(0.4 0.12 30);
-  --radius: 0rem;
-  --sidebar: oklch(0.18 0.01 240);
-  --sidebar-foreground: oklch(0.92 0.01 60);
-  --sidebar-primary: oklch(0.55 0.15 40);
-  --sidebar-primary-foreground: oklch(0.98 0.01 40);
-  --sidebar-accent: oklch(0.25 0.01 240);
-  --sidebar-accent-foreground: oklch(0.92 0.01 60);
-  --sidebar-border: oklch(0.3 0.01 240);
-  --sidebar-ring: oklch(0.55 0.15 40);
+  --destructive-foreground: oklch(0.985 0 0);
+  
+  --border: oklch(0.9 0.005 85);
+  --input: oklch(0.9 0.005 85);
+  --ring: oklch(0.72 0.11 75); /* Gold Ring */
+  
+  --radius: 0rem; /* Sharp corners for elegance */
+  
+  --chart-1: oklch(0.25 0.01 280);
+  --chart-2: oklch(0.72 0.11 75);
+  --chart-3: oklch(0.5 0.01 280);
+  --chart-4: oklch(0.85 0.01 85);
+  --chart-5: oklch(0.6 0.11 75);
+  
+  --sidebar: oklch(0.98 0.002 85);
+  --sidebar-foreground: oklch(0.25 0.01 280);
+  --sidebar-primary: oklch(0.2 0.01 280);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.96 0.005 85);
+  --sidebar-accent-foreground: oklch(0.25 0.01 280);
+  --sidebar-border: oklch(0.9 0.005 85);
+  --sidebar-ring: oklch(0.72 0.11 75);
 }
 
 .dark {
-  --background: oklch(0.15 0.01 240);
-  --foreground: oklch(0.92 0.01 60);
-  --card: oklch(0.18 0.01 240);
-  --card-foreground: oklch(0.92 0.01 60);
-  --popover: oklch(0.18 0.01 240);
-  --popover-foreground: oklch(0.92 0.01 60);
-  --primary: oklch(0.55 0.15 40);
-  --primary-foreground: oklch(0.98 0.01 40);
-  --secondary: oklch(0.22 0.01 240);
-  --secondary-foreground: oklch(0.92 0.01 60);
-  --muted: oklch(0.25 0.01 240);
-  --muted-foreground: oklch(0.6 0.01 60);
-  --accent: oklch(0.45 0.02 60);
-  --accent-foreground: oklch(0.98 0.01 60);
+  /* Sophisticated Dark Mode */
+  --background: oklch(0.15 0.01 280); /* Deep Charcoal */
+  --foreground: oklch(0.95 0.005 85);
+  
+  --card: oklch(0.18 0.01 280);
+  --card-foreground: oklch(0.95 0.005 85);
+  
+  --popover: oklch(0.18 0.01 280);
+  --popover-foreground: oklch(0.95 0.005 85);
+  
+  --primary: oklch(0.95 0.005 85);
+  --primary-foreground: oklch(0.15 0.01 280);
+  
+  --secondary: oklch(0.22 0.01 280);
+  --secondary-foreground: oklch(0.95 0.005 85);
+  
+  --muted: oklch(0.25 0.01 280);
+  --muted-foreground: oklch(0.7 0.01 280);
+  
+  --accent: oklch(0.72 0.11 75); /* Gold remains consistent */
+  --accent-foreground: oklch(0.98 0 0);
+  
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.3 0.01 240);
-  --input: oklch(0.25 0.01 240);
-  --ring: oklch(0.55 0.15 40);
-  --chart-1: oklch(0.55 0.15 40);
-  --chart-2: oklch(0.45 0.02 60);
-  --chart-3: oklch(0.6 0.01 60);
-  --chart-4: oklch(0.7 0.08 80);
-  --chart-5: oklch(0.4 0.12 30);
-  --sidebar: oklch(0.18 0.01 240);
-  --sidebar-foreground: oklch(0.92 0.01 60);
-  --sidebar-primary: oklch(0.55 0.15 40);
-  --sidebar-primary-foreground: oklch(0.98 0.01 40);
-  --sidebar-accent: oklch(0.25 0.01 240);
-  --sidebar-accent-foreground: oklch(0.92 0.01 60);
-  --sidebar-border: oklch(0.3 0.01 240);
-  --sidebar-ring: oklch(0.55 0.15 40);
+  
+  --border: oklch(0.3 0.01 280);
+  --input: oklch(0.3 0.01 280);
+  --ring: oklch(0.72 0.11 75);
+  
+  --chart-1: oklch(0.95 0.005 85);
+  --chart-2: oklch(0.72 0.11 75);
+  --chart-3: oklch(0.6 0.01 280);
+  --chart-4: oklch(0.4 0.01 280);
+  --chart-5: oklch(0.5 0.11 75);
+  
+  --sidebar: oklch(0.18 0.01 280);
+  --sidebar-foreground: oklch(0.95 0.005 85);
+  --sidebar-primary: oklch(0.72 0.11 75);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.25 0.01 280);
+  --sidebar-accent-foreground: oklch(0.95 0.005 85);
+  --sidebar-border: oklch(0.3 0.01 280);
+  --sidebar-ring: oklch(0.72 0.11 75);
 }
 
 @theme inline {
-  /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -120,6 +144,9 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
   }
 }
 
